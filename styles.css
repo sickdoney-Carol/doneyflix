@@ -1,0 +1,62 @@
+body {
+      color: black;
+      background:gray;
+      ;
+      margin: 0px;
+      font-family: "Yuji Syuku", serif;
+}
+
+header{
+    border-bottom: solid 1px #2e2e35 ;
+    padding: 20px;
+    font-size: 32px;
+    color: hsl(240, 7%, 19%) ;
+}
+
+.chamada{
+    background: #61615b;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 30px;
+}
+ p{
+ font-size: 15px;
+ }
+
+ 
+
+ .categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+ }
+
+ .categoria{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+ }
+
+.categoria-videos img{
+    opacity: 0.6;
+    height: 210px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid white;
+}
+
+.categoria h2{
+    color: hsl(240, 7%, 19%);
+}
